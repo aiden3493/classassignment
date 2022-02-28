@@ -64,13 +64,14 @@
   flex-direction: column;
   box-shadow: 0px 9px 10px lightgray;
   font-size: 10px;
+  padding-bottom: 50px;
 }
 
 .studentContainer {
   max-width: 600px;
   display: flex;
   width: 80%;
-  margin-top: 30px;
+  margin-top: 10px;
   flex-direction: row;
   align-content: space-between;
 }
