@@ -7,19 +7,19 @@ import ClassContainer from "../components/classContainer"
 
 const Home: NextPage = () => {
   return (
-    <motion.div className={styles.container} key="content">
-      <Head>
-        <title>상암중 반배정 현황</title>
-        <meta name="description" content="상암중학교 반배정 현황" />
-        <link rel="icon" href="../public/SchoolFavicon.ico" />
-      </Head>
-        <motion.main>
-            <motion.div className={styles.titleContainer}>
-                <h1 className={styles.title}>상암중 반배정 현황</h1>
-                <h3 className={styles.subTitle}>추가 문의는 <a style={{color: "blue"}} href="https://forms.gle/HB7mYCVEGnXmqPaq8">여기로</a></h3>
-            </motion.div>
-            <motion.div className={styles.classContent}>
-                <AnimateSharedLayout>
+      <AnimateSharedLayout>
+        <motion.div className={styles.container} key="content">
+          <Head>
+            <title>상암중 반배정 현황</title>
+            <meta name="description" content="상암중학교 반배정 현황" />
+            <link rel="icon" href="../public/SchoolFavicon.ico" />
+          </Head>
+            <motion.main>
+                <motion.div className={styles.titleContainer}>
+                    <h1 className={styles.title}>상암중 반배정 현황</h1>
+                    <h3 className={styles.subTitle}>추가 문의는 <a style={{color: "blue"}} href="https://forms.gle/HB7mYCVEGnXmqPaq8">여기로</a></h3>
+                </motion.div>
+                <motion.div className={styles.classContent}>
                     <ClassContainer classNum="1" student="홍현희 이지효 한가인 이린 장사무엘 이민서"/>
                     <ClassContainer classNum="2" student="하예솔 고석영 김시현 문소아 조예준 장선아 이창우 염정윤 이보람 장선아"/>
                     <ClassContainer classNum="3" student="이시은 강진아 안다경 이서정 나정균 정현지 정광현 김정후"/>
@@ -33,11 +33,10 @@ const Home: NextPage = () => {
                     <ClassContainer classNum="11" student="박다율 문지영 최승아 김루아 김민정 정예원 정조국 서은후 정예원 이라희"/>
                     <ClassContainer classNum="12" student="김초아 한사라 가윤 김수민 이지원 강민재 박경은 김수민 김송연 정다연"/>
                     <ClassContainer classNum="13" student="윤사랑 김의현 백은빈 송수아 박영찬 홍다민"/>
-                </AnimateSharedLayout>
-            </motion.div>
-        </motion.main>
-
-    </motion.div>
+                </motion.div>
+            </motion.main>
+        </motion.div>
+      </AnimateSharedLayout>
   )
 }
 
