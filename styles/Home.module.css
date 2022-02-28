@@ -32,6 +32,7 @@
 }
 
 .classContainer {
+  max-width: 600px;
   cursor: pointer;
   display: flex;
   justify-content: center;
