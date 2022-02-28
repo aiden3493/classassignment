@@ -7,7 +7,7 @@ import ClassContainer from "../components/classContainer"
 
 const Home: NextPage = () => {
   return (
-    <motion.div className={styles.container}>
+    <motion.div className={styles.container} key="content">
       <Head>
         <title>상암중 반배정 현황</title>
         <meta name="description" content="상암중학교 반배정 현황" />
