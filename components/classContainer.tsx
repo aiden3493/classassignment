@@ -17,7 +17,6 @@ export default function ClassContainer(props:any) {
                     key="closedClassContainer">
             <motion.h2 layout layoutId={`${props.classNum}P`} style={{marginTop: "15px"}}>{props.classNum}반</motion.h2>
             <motion.div className={styles.studentContainer}>
-                <div>
                     <motion.ul layout
                                className={styles.studentList}
                                initial={{ opacity: 0 }}
@@ -29,8 +28,6 @@ export default function ClassContainer(props:any) {
                             )}
 
                     </motion.ul>
-                </div>
-                <div>
                     <motion.ul layout
                                className={styles.studentList2}
                                initial={{ opacity: 0 }}
@@ -41,7 +38,6 @@ export default function ClassContainer(props:any) {
                             <motion.li key={`${name}key`}><h3>{name}</h3></motion.li>
                         )}
                     </motion.ul>
-                </div>
             </motion.div>
         </motion.div>
     ) : (
