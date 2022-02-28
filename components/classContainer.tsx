@@ -35,7 +35,7 @@ export default function ClassContainer(props:any) {
                            exit={{ opacity: 0 }}
                            transition={{ duration: 0.5 }}>
                     {half2.map((name) =>
-                        <li><h3>{name}</h3></li>
+                        <motion.li key={`${name}key`}><h3>{name}</h3></motion.li>
                     )}
                 </motion.ul>
             </motion.div>
