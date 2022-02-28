@@ -16,6 +16,7 @@ const Home: NextPage = () => {
         <motion.main>
             <motion.div className={styles.titleContainer}>
                 <h1 className={styles.title}>상암중 반배정 현황</h1>
+                <h3 style={{position:"absolute", marginTop: "70px"}}>추가 문의는 dokyungyu@gmail.com</h3>
             </motion.div>
             <motion.div className={styles.classContent}>
                 <AnimateSharedLayout>
@@ -35,7 +36,6 @@ const Home: NextPage = () => {
                 </AnimateSharedLayout>
             </motion.div>
         </motion.main>
-
 
     </motion.div>
   )
