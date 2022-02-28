@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                             <ClassContainer classNum="6" student="김가을 마혜민 윤준서 신우찬 소서이 김남현 이동영 전하윤 임태영"/>
                             <ClassContainer classNum="7" student="이민희 김동후 최은진"/>
                             <ClassContainer classNum="8" student="전소연 이정헌 김주하 강세림 박형준"/>
-                            <ClassContainer classNum="9" student="김하은 오수혁 한승원 김나림"/>
+                            <ClassContainer classNum="9" student="김하은 오수혁 한승원 김나림 이해민"/>
                             <ClassContainer classNum="10" student="김서희 정지윤 이서하 이예찬 김예은 최예람"/>
                             <ClassContainer classNum="11" student="박다율 문지영 최승아 김루아 김민정 정예원 정조국 서은후 정예원 이라희"/>
                             <ClassContainer classNum="12" student="김초아 한사라 가윤 김수민 이지원 강민재 박경은 김수민 김송연 정다연"/>
