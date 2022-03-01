@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                 <motion.div className={styles.titleContainer}>
                     <h1 className={styles.title}>상암중 반배정 현황</h1>
                     <h3 className={styles.subTitle}>추가 문의는 <a style={{color: "blue"}} href="https://forms.gle/HB7mYCVEGnXmqPaq8">여기로</a></h3>
-                    <h3 className={styles.subTitle}>현재까지 등록된 학생 : 102명</h3>
+                    <h3 className={styles.subTitle}>현재까지 등록된 학생 : 117명</h3>
                 </motion.div>
                     <AnimateSharedLayout>
                         <motion.div className={styles.classContent} layout>

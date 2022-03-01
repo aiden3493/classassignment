@@ -13,7 +13,7 @@ export default function ClassContainer(props:any) {
                     layout
                     layoutId={`${props.classNum}Container`}
                     transition={{duration: 0.2}}
-                    initial={{height: `${100 + half2.length * 30 + 80}px`}}
+                    initial={{height: `${100 + half2.length * 30 + 100}px`}}
                     key="closedClassContainer">
             <motion.h2 layout layoutId={`${props.classNum}P`} style={{marginTop: "15px"}}>{props.classNum}반</motion.h2>
             <motion.div className={styles.studentContainer}>
