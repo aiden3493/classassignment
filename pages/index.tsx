@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                             <ClassContainer classNum="5" student="장수빈 채혜림 김나영 이채경 이은우 김정윤 강민권 최진규 김태현 박정하"/>
                             <ClassContainer classNum="6" student="김가을 마혜민 윤준서 신우찬 소서이 김남현 이동영 전하윤 임태영 김가온 황가은 이지후"/>
                             <ClassContainer classNum="7" student="이민희 김동후 최은진 채승훈 허서우 최진현 신현승 김예은 김민서"/>
-                            <ClassContainer classNum="8" student="이정헌 김주하 강세림 박형준 최서현"/>
+                            <ClassContainer classNum="8" student="이정헌 김주하 강세림 박형준 최서현 안시언 "/>
                             <ClassContainer classNum="9" student="김하은 오수혁 한승원 김나림 이해민 전소연 정민서 김민서"/>
                             <ClassContainer classNum="10" student="김서희 정지윤 이서하 이예찬 김예은 최예람 강예준"/>
                             <ClassContainer classNum="11" student="박다율 문지영 최승아 김루아 김민정 정예원 정조국 서은후 정예원 이라희 김아진 윤다혜 임유찬"/>
